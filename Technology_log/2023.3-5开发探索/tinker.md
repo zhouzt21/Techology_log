@@ -4,6 +4,8 @@ date: 2023.04.02
 tags: 记录
 ---
 
+# Tinker架构
+
 ## 导航
 
 SLAM+路径规划
@@ -23,7 +25,6 @@ teb_local_planner
 为什么云台抖动会影响建图
 
 livox
-
 
 
 ## 语音识别

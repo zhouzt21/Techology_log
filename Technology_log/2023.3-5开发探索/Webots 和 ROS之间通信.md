@@ -5,7 +5,6 @@ tags: 知识
 ---
 
 
-
 # Webots 和 ROS之间通信
 
 控制器：
@@ -36,10 +35,6 @@ Step1: 在github上下载webot代码 ：https://github.com/cyberbotics/webots (�
 Step2: 在目录 projects/languages/ros 找到 webots_ros 目录，将整个 webots_ros 目录拷贝到你自己的ros工作空间中。 
 Step3: 将目录 projects/default/controllers/ros/include 目录下的 srv 和 msg 文件夹拷贝到 catkin_ws/src/webots_ros/ 中 
 ```
-
-
-
-
 
 ### 在ROS里读取webots传感器数据
 
@@ -85,10 +80,6 @@ Camera {
   camera_srv.request.value = 64;
   set_camera_client.call(camera_srv);
 ```
-
-
-
-
 
 
 
@@ -191,14 +182,6 @@ Accelerometer {
 遗留问题，webots中测得的数据是什么类型？在webots-ros这个功能包里，用什么service来传递给其他ROS节点？如果没有这种服务和话题，是不是要自己写一个？
 
 另外在获取webots传感器的数据的时候，区分不同机器人的域名可以获取吗？
-
-
-
-
-
-
-
-
 
 
 
